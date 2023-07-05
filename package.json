@@ -1,0 +1,21 @@
+{
+  "name": "ssl-proxy",
+  "version": "1.2.0",
+  "description": "A easy set-up for SSL certificate through a proxy on a specific port.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js &",
+    "start-self": "node index-self.js &",
+    "stop": "./stop.sh"
+  },
+  "keywords": [
+    "proxy",
+    "ssl"
+  ],
+  "author": "Paulo Baronceli",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http-proxy": "^1.18.1"
+  }
+}
